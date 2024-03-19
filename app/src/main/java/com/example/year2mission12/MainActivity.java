@@ -10,7 +10,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity  implements AdapterView.OnItemSelectedListener {
-    int[] flags = {R.drawable.USflag, R.drawable.CHflag, R.drawable.INflag, R.drawable.BRflag, R.drawable.RSflag,R.drawable.JAflag,R.drawable.GMflag};
+    int[] flags = {R.drawable.usflag, R.drawable.chflag, R.drawable.inflag, R.drawable.brflag, R.drawable.rsflag,R.drawable.jaflag,R.drawable.gmflag};
     String[] countries = {"United States", "China", "India", "Brazil", "Russia", "Japan", "Germany"};
     String[] capitals = {"Washington, D.C.", "Beijing", "New Delhi", "Brasília", "Moscow", "Tokyo", "Berlin"};
     String[] populations = {"331 million", "1.4 billion", "1.39 billion", "213 million", "146 million", "126 million", "83 million"};
