@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity  implements AdapterView.OnIt
         spin.setOnItemSelectedListener(this);
         info.setText("Country:\nCapital:\nPopulation:");
 
+
     }
 
     @Override
